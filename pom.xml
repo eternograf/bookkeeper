@@ -113,7 +113,7 @@
     <redirectTestOutputToFile>true</redirectTestOutputToFile>
     <testRetryCount>2</testRetryCount>
     <src.dir>src/main/java</src.dir>
-    <test.additional.args />
+    <test.additional.args/>
 
     <!-- dependencies -->
     <arquillian-cube.version>1.18.2</arquillian-cube.version>
@@ -202,7 +202,7 @@
     <build-helper-maven-plugin.version>3.6.0</build-helper-maven-plugin.version>
     <forkCount.variable>1</forkCount.variable>
     <servlet-api.version>4.0.0</servlet-api.version>
-    <rxjava.version>3.0.1</rxjava.version>
+    <rxjava.version>3.1.12</rxjava.version>
     <otel.version>1.45.0</otel.version>
     <otel.instrumentation.version>1.33.6</otel.instrumentation.version>
     <otel.semconv.version>1.29.0-alpha</otel.semconv.version>
@@ -1285,7 +1285,7 @@
                   <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
                   <outputDirectory>${project.build.directory}/generated-sources/delombok</outputDirectory>
                   <formatPreferences>
-                    <pretty />
+                    <pretty/>
                   </formatPreferences>
                 </configuration>
               </execution>
