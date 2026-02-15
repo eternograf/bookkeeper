@@ -113,7 +113,7 @@
     <redirectTestOutputToFile>true</redirectTestOutputToFile>
     <testRetryCount>2</testRetryCount>
     <src.dir>src/main/java</src.dir>
-    <test.additional.args />
+    <test.additional.args/>
 
     <!-- dependencies -->
     <arquillian-cube.version>1.18.2</arquillian-cube.version>
@@ -152,7 +152,7 @@
     <junit5.version>5.10.2</junit5.version>
     <assertj-core.version>3.25.3</assertj-core.version>
     <awaitility.version>4.2.0</awaitility.version>
-    <libthrift.version>0.14.2</libthrift.version>
+    <libthrift.version>0.22.0</libthrift.version>
     <lombok.version>1.18.32</lombok.version>
     <log4j.version>2.23.1</log4j.version>
     <lz4.version>1.3.0</lz4.version>
@@ -1285,7 +1285,7 @@
                   <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
                   <outputDirectory>${project.build.directory}/generated-sources/delombok</outputDirectory>
                   <formatPreferences>
-                    <pretty />
+                    <pretty/>
                   </formatPreferences>
                 </configuration>
               </execution>
