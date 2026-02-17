@@ -113,7 +113,7 @@
     <redirectTestOutputToFile>true</redirectTestOutputToFile>
     <testRetryCount>2</testRetryCount>
     <src.dir>src/main/java</src.dir>
-    <test.additional.args />
+    <test.additional.args/>
 
     <!-- dependencies -->
     <arquillian-cube.version>1.18.2</arquillian-cube.version>
@@ -166,7 +166,7 @@
     <protobuf.version>3.25.5</protobuf.version>
     <protoc3.version>${protobuf.version}</protoc3.version>
     <protoc-gen-grpc-java.version>${grpc.version}</protoc-gen-grpc-java.version>
-    <reflections.version>0.9.11</reflections.version>
+    <reflections.version>0.10.2</reflections.version>
     <rocksdb.version>7.10.2</rocksdb.version>
     <shrinkwrap.version>3.3.0</shrinkwrap.version>
     <slf4j.version>2.0.12</slf4j.version>
@@ -1285,7 +1285,7 @@
                   <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
                   <outputDirectory>${project.build.directory}/generated-sources/delombok</outputDirectory>
                   <formatPreferences>
-                    <pretty />
+                    <pretty/>
                   </formatPreferences>
                 </configuration>
               </execution>
