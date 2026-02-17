@@ -113,7 +113,7 @@
     <redirectTestOutputToFile>true</redirectTestOutputToFile>
     <testRetryCount>2</testRetryCount>
     <src.dir>src/main/java</src.dir>
-    <test.additional.args />
+    <test.additional.args/>
 
     <!-- dependencies -->
     <arquillian-cube.version>1.18.2</arquillian-cube.version>
@@ -177,7 +177,7 @@
     <testcontainers.version>1.19.4</testcontainers.version>
     <vertx.version>4.5.11</vertx.version>
     <zookeeper.version>3.9.3</zookeeper.version>
-    <snappy.version>1.1.10.5</snappy.version>
+    <snappy.version>1.1.10.8</snappy.version>
     <jctools.version>2.1.2</jctools.version>
     <hppc.version>0.9.1</hppc.version>
     <!-- plugin dependencies -->
@@ -1285,7 +1285,7 @@
                   <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
                   <outputDirectory>${project.build.directory}/generated-sources/delombok</outputDirectory>
                   <formatPreferences>
-                    <pretty />
+                    <pretty/>
                   </formatPreferences>
                 </configuration>
               </execution>
